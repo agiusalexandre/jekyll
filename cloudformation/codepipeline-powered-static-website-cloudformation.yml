@@ -83,7 +83,7 @@ Parameters:
   BuildEnvironmentImage:
     Description: "Optional image to use for codebuild eg. docker:dind defaults to a ruby environment suitable for Jekyll builds."
     Type: String
-    Default: "aws/codebuild/ruby:2.3.1"
+    Default: "aws/codebuild/amazonlinux2-x86_64-standard:1.0"
 
   PreExistingGitRepository:
     Description: "Optional Git repository name for pre-existing git repository. Leave empty to have CodeCommit Repository created and managed by this stack."
