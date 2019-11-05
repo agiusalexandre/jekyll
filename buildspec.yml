@@ -3,10 +3,10 @@ version: 0.1
 phases:
   install:
     commands:
-      - gem install jekyll
+      - gem install jekyll bundler
   build:
     commands:
       - echo "******** Building Jekyll site ********"
       - jekyll build
       - echo "******** Uploading to S3 ********"
-      - aws s3 sync _site/ s3://agiusalexandre.com
+      - aws s3 sync _site/ s3://alagius.com
