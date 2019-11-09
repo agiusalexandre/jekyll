@@ -115,6 +115,10 @@ Parameters:
     Type: String
     Default: ""
 
+  CertificateArn:
+    Type: String
+    Default: ""
+
 Conditions:
   IsCodeCommit: !Equals [!Ref SourceType, "CodeCommit"]
   NeedsNewGitRepository: !And [!Equals [!Ref PreExistingGitRepository, ""], !Equals [!Ref SourceType, "CodeCommit"]]
@@ -202,14 +206,6 @@ Resources:
         Status: Enabled
     DeletionPolicy: Retain
 
-  # Certificate for HTTPS accesss through CloudFront
-  Certificate:
-    Type: "AWS::CertificateManager::Certificate"
-    Properties:
-      DomainName: !Ref DomainName
-      SubjectAlternativeNames:
-        - !Sub "www.${DomainName}"
-
   # CDN serves S3 content over HTTPS for example.com
   CloudFrontDistribution:
     Type: "AWS::CloudFront::Distribution"
@@ -247,7 +243,7 @@ Resources:
           Prefix: !Sub "logs/cloudfront/${DomainName}/"
           IncludeCookies: false
         ViewerCertificate:
-          AcmCertificateArn: !Ref Certificate
+          AcmCertificateArn: !Ref CertificateArn
           SslSupportMethod: sni-only
 
   # CDN serves S3 content over HTTPS for www.example.com
@@ -285,7 +281,7 @@ Resources:
           Prefix: !Sub "logs/cloudfront/www.${DomainName}/"
           IncludeCookies: false
         ViewerCertificate:
-          AcmCertificateArn: !Ref Certificate
+          AcmCertificateArn: !Ref CertificateArn
           SslSupportMethod: sni-only
 
   # DNS: example.com, www.example.com
