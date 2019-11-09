@@ -117,7 +117,7 @@ Parameters:
 
   CertificateArn:
     Type: String
-    Default: ""
+    Default: "arn:aws:acm:us-east-1:321050635762:certificate/595dce10-f884-4655-8d80-a5c7b169e222"
 
 Conditions:
   IsCodeCommit: !Equals [!Ref SourceType, "CodeCommit"]
