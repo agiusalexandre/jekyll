@@ -1,16 +1,15 @@
-version: 0.2
-   
-phases:
-  install:
-    runtime-versions:
-        ruby: 2.6
-    commands:
-      - ruby --version
-      - gem install jekyll bundler
-      - bundler --version
-  build:
-    commands:
-      - echo "******** Building Jekyll site ********"
-      - jekyll build
-      - echo "******** Uploading to S3 ********"
-      - aws s3 sync _site/ s3://alagius.com
+version: 0.1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - bundle install
+    build:
+      commands:
+        - bundle exec jekyll b
+  artifacts:
+    baseDirectory: _site
+    files:
+      - '**/*'
+  cache:
+    paths: []
