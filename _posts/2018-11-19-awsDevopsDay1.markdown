@@ -26,7 +26,10 @@ background: '/img/posts/01.jpg'
 
 
 # Video
-youtube aws summit gameloft
+Gameloft live session au AWS SUMMIT Paris 2019
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oEdv3nqabD0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 
