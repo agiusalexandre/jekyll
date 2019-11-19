@@ -15,3 +15,18 @@ background: '/img/posts/01.jpg'
  - Permet de Ping les régions AWS 
  3. [https://aws.amazon.com/architecture/icons/](https://aws.amazon.com/architecture/icons/)
  -  Banque d'icon utilisable pour mettre en places des architectures sur AWS
+
+# Interested informations
+
+ 1. Trusted Advisor Dashboard
+ - Service limits : A vérifier 
+ 
+ 2. Ne pas oublier de sur utiliser le support AWS
+ 3. CloudWatch logs : il garde les logs à vie, il faut créer des rétentions périodes.
+
+
+# Video
+youtube aws summit gameloft
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oEdv3nqabD0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
