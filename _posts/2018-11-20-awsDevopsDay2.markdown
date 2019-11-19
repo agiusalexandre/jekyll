@@ -31,22 +31,5 @@ Gameloft live session au AWS SUMMIT Paris 2019
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oEdv3nqabD0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-# CAF
-
-Train often train early & keep training
-don't train a separated team that it's the only team that learn AWS, train everyone, and then your cloud strategy can accelerated
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CcspJkc7zqg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-[AWS cloud adoption framework](https://d1.awsstatic.com/whitepapers/aws_cloud_adoption_framework.pdf)
-
-[AWS CAF Creating an Action Plan](https://d1.awsstatic.com/professional-services/caf/AWS_CAF_Creating_an_Action_Plan_Nov2017.pdf)
-
-
-
-
-
-
-
 
 
