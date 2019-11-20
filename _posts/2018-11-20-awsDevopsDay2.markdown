@@ -11,7 +11,8 @@ background: '/img/posts/01.jpg'
  1. AWS Security fundamentals https://aws.amazon.com/training/course-descriptions/security-fundamentals/ 
  2. Preco RI sur 1 an
  3. Simply monthly calculator : https://calculator.s3.amazonaws.com/index.html
- 4. Taurus load testing    
+ 4. Taurus load testing 
+ 5. AWS answers https://aws.amazon.com/answers/    
 
 # Interested informations
 
