@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Formation AWS SysOps Day 1"
-subtitle: "Formation AWS SysOps Day 1"
-date: 2018-11-19 09:45:13 -0400
+title: "Formation AWS SysOps Day 2"
+subtitle: "Formation AWS SysOps Day 2"
+date: 2018-11-20 09:45:13 -0400
 background: '/img/posts/01.jpg'
 ---
 
