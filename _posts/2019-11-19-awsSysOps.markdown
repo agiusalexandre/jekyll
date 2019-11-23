@@ -6,6 +6,27 @@ color:
 description: Different interesting information linked to AWS SysOps scope.
 ---
 
+
+# AWS Certified SysOps Administrator - Associate Exam
+
+## Description 
+The AWS Certified SysOps Administrator - Associate exam validates a systems administrator’s ability to deploy, manage and operate scalable, highly available and fault tolerant systems.
+
+## Duration
+130 min
+
+## Domain
+
+|Domain|Percentage  |
+|--|--|
+| Monitoring and Reporting | 22%  |
+| High Availability	 | 8%  |
+| Deployment and Provisioning	 | 14%  |
+| Storage and Data Management	 | 12%  |
+| Security and Compliance	 | 18%  |
+| Networking | 14% |
+| Automation and Optimization	 | 12% |
+
 # Links
 
  1. [https://aws.amazon.com/training/course-descriptions/job-roles/](https://aws.amazon.com/training/course-descriptions/job-roles/)
