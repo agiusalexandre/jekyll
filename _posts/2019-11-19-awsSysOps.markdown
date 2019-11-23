@@ -1,9 +1,9 @@
 ---
-layout: post
-title: "Formation AWS SysOps Day 1"
-subtitle: "Formation AWS SysOps Day 1"
-date: 2019-11-19 09:45:13 -0400
-background: '/img/posts/01.jpg'
+title: AWS SysOps 
+tags: [AWS, Technology, SysOps, EN]
+style: 
+color: 
+description: Different interesting information linked to AWS SysOps scope.
 ---
 
 # Interested links
@@ -15,6 +15,15 @@ background: '/img/posts/01.jpg'
  - Permet de Ping les régions AWS 
  3. [https://aws.amazon.com/architecture/icons/](https://aws.amazon.com/architecture/icons/)
  -  Banque d'icon utilisable pour mettre en places des architectures sur AWS
+
+ 4.  [AWS Security fundamentals](https://aws.amazon.com/training/course-descriptions/security-fundamentals/)
+
+ 5. [Simply monthly calculator](https://calculator.s3.amazonaws.com/index.html)
+
+ 6. Taurus load testing
+
+ 7.  [AWS answers](https://aws.amazon.com/answers/)
+
 
 # Interested informations
 
@@ -29,7 +38,6 @@ background: '/img/posts/01.jpg'
 Gameloft live session au AWS SUMMIT Paris 2019
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oEdv3nqabD0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 # CAF
 
