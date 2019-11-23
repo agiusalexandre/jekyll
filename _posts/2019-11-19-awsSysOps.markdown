@@ -6,7 +6,7 @@ color:
 description: Different interesting information linked to AWS SysOps scope.
 ---
 
-# Interested links
+# Links
 
  1. [https://aws.amazon.com/training/course-descriptions/job-roles/](https://aws.amazon.com/training/course-descriptions/job-roles/)
 			
@@ -25,7 +25,7 @@ description: Different interesting information linked to AWS SysOps scope.
  7.  [AWS answers](https://aws.amazon.com/answers/)
 
 
-# Interested informations
+# Informations
 
  1. Trusted Advisor Dashboard
  - Service limits : A vérifier 
