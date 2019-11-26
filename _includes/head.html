@@ -20,4 +20,8 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" type="text/css">
 
+  {%- if site.google_analytics -%}
+  {%- include google-analytics.html -%}
+{%- endif -%}
+
 </head>
