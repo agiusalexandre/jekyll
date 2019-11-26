@@ -64,5 +64,3 @@ exclude:
 - LICENSE
 - Gemfile
 - Gemfile.lock
-
-google_analytics: UA-152686626-1         # Required - replace with your tracking id
