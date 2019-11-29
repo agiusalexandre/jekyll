@@ -1,24 +1,68 @@
-title:              AlAgius blog
-email:              agiusalexandre@gmail.com
-description:        It Architect Blog
-author:             Ale Agius
-baseurl:            "/"
-url:                "https://alagius.com"
+### Site Settings ###
+title               : AlAgius
+description         : >-                               # >- means to ignore newlines until "url:"
+                      "Technology makes it possible for people 
+                      to gain control over everything, 
+                      except over technology."
+                      -John Tudor
+url                 : ""                               # base hostname & protocol for your site (e.g. http://example.com)
+baseurl             : ""                              # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
+repository          : agiusalexandre/jekyll            # repository metadata on GitHub Pages [know more at https://help.github.com/en/articles/repository-metadata-on-github-pages]
 
-# Social Profiles
-twitter_username:   alex
-github_username:    agiusalexandre
-facebook_username:  agiusalexandre
-linkedin_username:  agiusalexandre
+### Author Info ###
+author:
+  name              : Alex Agius
+  image             : /assets/img/alagius2.jpg 
+ # behance           : your_username
+# dribbble          : your_username
+  email             : agiusalexandre@gmail.com
+  facebook          : alagius
+  github            : agiusalexandre
+# gitlab            : your_username
+# instagram         : your_username
+  linkedin          : alexandreagius
+  #medium            : your_username
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+  #twitter           : your_username
+# vimeo             : your_username
+# youtube           : your_channel_name
 
-# Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-152686626-1 # out your google-analytics code
 
-# Build settings
-markdown:           kramdown
-paginate:           5
-paginate_path:      "/posts/page:num/"
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+### Pagination ###
+paginate: 6
+paginate_path: "/articles/page-:num/"
+
+
+### Posts Permalink ###
+permalink: articles/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+
+
+### Exclude from processing ###
+exclude:
+- README.md
+- CONTRIBUTING.md
+- LICENSE
+- Gemfile
+- Gemfile.lock
+
+google_analytics: UA-152686626-1         # Required - replace with your tracking id

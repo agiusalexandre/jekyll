@@ -1,5 +1,12 @@
-_site
-.sass-cache
-node_modules
+# Local Site Directories
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# To generate Gemfile.lock -> use: $ bundle install
+# If unknown encoding name CP720 Error occured -> use: $ chcp.com 1252
 Gemfile.lock
-*.gem
+
+# Photoshop Documents
+Preview.psd
