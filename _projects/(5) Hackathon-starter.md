@@ -5,6 +5,3 @@ image: https://camo.githubusercontent.com/a6caff29efcb54c8be6243fa952397c1a0ad04
 description: A boilerplate for Node.js web applications.
 external_url: https://github.com/agiusalexandre/hackathon-starter
 ---
-
-
-{% include http://www.davidc.net/sites/default/subnets/subnets.html %}
