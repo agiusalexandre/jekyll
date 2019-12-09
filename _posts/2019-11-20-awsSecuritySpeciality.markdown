@@ -57,6 +57,6 @@ The AWS Certified Security – Specialty (SCS-C01) examination is intended for i
 - The Condition element (or Condition block) lets you specify conditions for when a policy is in effect. The policy statement is effective only when the conditions are true. For example, you might want a policy statement to take effect only after a specific date. Or, you might want a policy statement to control access only when a specific value appears in an API request.
 
 # VPC
-[/assets/articles/vpc.png](VPC)
+[VPC](/assets/articles/vpc.png)
 
 A nice interactive  [IP Address and CIDR range visualizer](https://cidr.xyz/)
