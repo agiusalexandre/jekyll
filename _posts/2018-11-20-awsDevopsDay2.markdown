@@ -4,6 +4,7 @@ title: "Formation AWS SysOps Day 2"
 subtitle: "Formation AWS SysOps Day 2"
 date: 2018-11-20 09:45:13 -0400
 background: '/img/posts/01.jpg'
+Description: AWS Devops Day 2 notes
 ---
 
 # Interested links
