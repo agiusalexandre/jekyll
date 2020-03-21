@@ -1,6 +1,6 @@
 ---
 title: AWS SysOps 
-tags: [AWS, Technology, SysOps, EN]
+tags: [AWS, Technology, SysOps, EN, Certification]
 style: 
 color: 
 description: Different interesting information linked to AWS SysOps scope.
