@@ -2,7 +2,7 @@
 title: Cloud Operating Model
 tags: [Cloud, Technology, Operation]
 style:
-color:
+color: 3b5998
 description: The big picture of the future-state operating model of Cloud.
 ---
 
