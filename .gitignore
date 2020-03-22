@@ -3,6 +3,7 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+node_modules/
 
 # To generate Gemfile.lock -> use: $ bundle install
 # If unknown encoding name CP720 Error occured -> use: $ chcp.com 1252
