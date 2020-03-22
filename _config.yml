@@ -51,10 +51,11 @@ collections:
 ### Defaults for collections ###
 defaults:
   - scope:
-      path: "_posts/test"
+      path: ""
       type: "projects"
     values:
       layout: "page"
+
 
 
 ### Exclude from processing ###
@@ -65,4 +66,9 @@ exclude:
 - Gemfile
 - Gemfile.lock
 
+
 google_analytics: UA-152686626-1 # Required - replace with your tracking id
+
+plugins: 
+  - jekyll-youtube
+
